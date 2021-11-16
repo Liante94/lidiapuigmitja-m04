@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <p>Pàgina de receptes en construcció</p>
+        <input type="button" value="Tornar enrrere" onclick="history.back()" style="font-family: Verdana; font-size: 10 pt">
+    </head>
+</html>
