@@ -1,0 +1,449 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: scroll;
+  display: block;
+}
+
+#container{
+  width: 1920px;
+  height: 1080px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+header{
+  background-color: white;
+  height: 130px;
+  width: 100%;
+  display: block;
+  align-items: center;
+  line-height: 100px;
+  margin: auto;
+
+}
+
+nav{
+  height: 50px;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: 3px solid #8A8070;
+  border-top: 3px solid #8A8070;
+}
+
+#fix{
+  position: fixed;
+  width: 1920px;
+  margin-bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.txtCent{
+  text-align: center;
+  border-bottom: 2px solid #7ABA96;
+  border-top: 2px solid #7ABA96;
+  height: 30px;
+  line-height: 30px;
+}
+
+p{
+  text-align: justify;
+  margin: 15px;
+  font-size: 18px;
+}
+
+ol{
+  text-align: left;
+  margin: 12px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+h4{
+  text-align: left;
+  margin: 15px;
+  padding: 15px;
+  font-size: 24px;
+}
+
+h5{
+  text-align: left;
+  margin: 15px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+ul{
+  text-align: left;
+  margin: 12px;
+  padding: 12px;
+  font-size: 15px;
+}
+
+#imgLogo{
+  display: block;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgRece{
+  align-items: center;
+  width: 500px;
+  margin-bottom: 10px;
+}
+
+a.rece:link {
+  color:#000000;
+  text-decoration:none;
+
+}
+a.rece:hover {
+  color:#8A8070;
+  text-decoration:none;
+}
+a.rece:active {
+  color: blue;
+  text-decoration:none;
+}
+
+
+
+a:link {
+  color:#000000;
+  text-decoration:none;
+  font-size: 20px;
+  margin: 10px;
+}
+a:hover {
+  color:#7ABA96;
+  text-decoration:none;
+}
+a:active {
+  color:blue;
+  text-decoration:none;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#content{
+  float: left;
+  width: 1536px;
+  background: white;
+  min-height: 300px;
+  align-content: center;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 195px;
+  
+}
+
+#personal{
+  float: left;
+  width: 23%;
+  margin-left: 5%;
+  background: white;
+  align-content: center;
+  text-align: justify;
+  min-height: 300px;
+  
+}
+
+#recetasUno{
+  float: left;
+  width: 35%;
+  background: white;
+  align-content: center;
+  text-align: justify;
+  min-height: 300px;
+  
+}
+
+#recetasDos{
+  float: left;
+  width: 35%;
+  background: white;
+  align-content: center;
+  text-align: justify;
+  min-height: 300px;
+
+}
+
+aside{
+  float: right;
+  width: 345px;
+  height: 100%;
+  background: pink;
+  align-items: center;
+  padding: 15px;
+  vertical-align: top;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#publi{
+ 
+  align-items: center;
+  width: 250px;
+}
+
+.imgSobreMi{
+  align-items: center;
+  width: 200px;
+  margin: 20px;
+}
+
+.imgDelicias{
+  align-items: center;
+  width: 200px;
+  margin: 20px;
+}
+
+.article{
+  margin: 20px;
+  align-content: center;
+  text-align: center;
+  min-height: 150px;
+  margin-top: 15px;
+}
+
+#receta{
+  margin: 20px;
+  text-align: justify;
+  height: 20%;
+  float: left;
+
+}
+
+.lista{
+  text-align: justify;
+  height: 10%;
+  float: left;
+  background: rgb(140, 167, 246);
+  border: 3px solid royalblue;
+  width: 1518px;
+}
+
+.titulo{
+  padding: 15px;
+  text-align: center;
+  height: 10%;
+  float: left;
+  background: rgb(140, 167, 246);
+  width: 1495px;
+  font-size: x-large;
+}
+
+.imgList{
+  width: 250px;
+  align-items: center;
+  margin: 20px;
+}
+
+#seccio{
+  margin: 15px;
+  align-content: center;
+  text-align: center;
+  min-height: 150px;
+  margin-top: 15px;
+  height: 35%;
+  float: left;
+  width: 1536px;
+}
+
+#seccioDos{
+  margin: 15px;
+  align-content: center;
+  text-align: center;
+  min-height: 150px;
+  margin-top: 15px;
+  height: 45%;
+  float: left;
+  width: 1536px;
+}
+
+
+
+.parti{
+  margin: 12px;
+  margin-top: 12px;
+  float: left;
+  width: 45%;
+  align-content: center;
+  text-align: justify;
+  min-height: 300px;
+}
+
+#titulin{
+  text-align: center;
+  margin: 15px;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.parti2{
+  margin: 20px;
+  margin-top: 30px;
+  float: left;
+  width: 40%;
+  align-content: center;
+  text-align: justify;
+  min-height: 300px;
+}
+.parti3{
+  margin: 20px;
+  margin-top: 10px;
+  float: left;
+  width: 10%;
+  align-content: center;
+  text-align: justify;
+  min-height: 300px;
+}
+
+#sub{
+  border: 3px solid blue;
+}
+
+#form{
+  border: 3px solid blue;
+  background: cadetblue;
+  padding: 5px;
+  text-align: justify;
+
+}
+
+input{
+  padding: 5px;
+}
+
+.sobreMi{
+  margin: 15px;
+  margin-top: 15px;
+  align-content: center;
+  text-align: center;
+  padding: 15px;
+  min-height: 100px;
+  
+}
+
+.suscribete{
+ margin: 15px;
+  align-content: center;
+  text-align: center;
+  min-height: 200px;
+  
+}
+.info{
+  padding: 15px;
+  width: calc(100%-30px);
+  height: 80%;
+  background: #D5D8DC;
+}
+
+.apunta{
+  padding: 15px;
+  background-color: #7ABA96;
+  width: calc(100%-30px);
+  height: 20%;
+}
+
+
+footer{
+  background: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+}
+
+a.pie:link {
+  color:#FFFFFF;
+  text-decoration:none;
+  font-size: 20px;
+  margin: 10px;
+}
+a.pie:hover {
+  color:purple;
+  text-decoration:none;
+}
+a.pie:active {
+  color: blue;
+  text-decoration:none;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 440px;
+  perspective: 1000px;
+  margin-top: 500px;
+  margin-left: 50px;
+
+}
+      
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+      
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+      
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: pink;
+  color: black;
+}
+      
+.flip-card-back {
+  background-color: plum;
+  color: white;
+  transform: rotateY(180deg);
+        
+}
+
+     
+a.publi:link {
+  color: powderblue;
+  text-decoration:none;
+  text-align: center;
+  font-size: 40px;
+  line-height: 100px;
+      
+}
+
+a.publi:hover {
+  color:blue;
+  text-decoration:none;
+}
+
+a.publi:active {
+  color: purple;
+  text-decoration:none;
+}
